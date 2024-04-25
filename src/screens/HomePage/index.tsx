@@ -1,6 +1,6 @@
 import { Box, Divider, HStack, Heading, Image, Progress, ProgressFilledTrack, ScrollView, Text, VStack } from "@gluestack-ui/themed";
 import Layout from "../layout";
-import { Bell, Divide, QrCode, Share2 } from "lucide-react-native";
+import { Bell, QrCode, Share2 } from "lucide-react-native";
 
 const Icon = require('.././../../Images/Home.png');
 const HomeRent = require('.././../../Images/HomeRent.png');
