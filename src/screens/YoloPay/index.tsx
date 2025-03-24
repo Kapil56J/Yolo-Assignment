@@ -1,5 +1,5 @@
 import React from 'react';
-import { SafeAreaView, StyleSheet, Animated, Easing } from 'react-native';
+import { SafeAreaView, StyleSheet, Animated, Easing, ScrollView } from "react-native";
 import {
   Box,
   Card,
@@ -27,7 +27,8 @@ const YoloPay = () => {
   }, [isFreeze]);
 
   return (
-    <SafeAreaView style={styles.container}>
+    <ScrollView style={styles.container}>
+    <SafeAreaView >
       <Box gap={'$3'} mx={'$2'} w={'$full'} bg={'$black'}>
         <Heading size="2xl" color="#fff">
           select payment mode
@@ -104,6 +105,7 @@ const YoloPay = () => {
         </HStack>
       </Box>
     </SafeAreaView>
+    </ScrollView>
   );
 };
 
